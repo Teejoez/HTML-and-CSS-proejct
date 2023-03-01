@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1.2fr 5fr;
+    grid-template-rows: 0.5fr 6fr;
+    height: 100vh;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+}
+
+nav {
+    display: grid;
+    grid-row: 1/span2;
+    background-color: #60a5fa;
+    height: 100%;
+}
+
+.menu-title{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    color: black;
+    margin-left: 43px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu-top{
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    font-size: 25px;
+    
+}
+
+.in-menu-top{
+    margin: 10px;
+}
+
+.menu-bottom{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    font-size: 25px;
+}
+
+.in-menu-bottom{
+    margin: 10px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+input{
+}
+
+.searchsystem{
+}
+
+.mdi-magnify{
+    margin: 20px 0px 0px 40px;
+    font-size: 30px;
+}
+
+#searchbar{
+    margin: 20px 10px 0px 0px;
+    padding-left: 10px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #93c5fd;
+    border: 0;
+    font-size: 20px;
+    
+}
+.profile-right{
+    margin: 20px 0px 0px 80px;
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 1fr;
+    font-weight: bold;
+    font-size: 20px;
+}
+.profile-right-text{
+    margin-top: 9px;
+    margin-left: 5px;
+
+}
+
+.mdi-bell-ring{
+    padding: 7px 15px 0px 15px;
+    font-size: 25px;
+}
+.personalprofile-mini{
+    grid-row: 1/span2;
+    width: 40px;
+    height: 40px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 20px;
+    background-color: #93c5fd;
+}
+.profile-left{
+    padding: 0px 20px 0px 40px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+}
+
+.personalprofile{
+    grid-row: 1/span2;
+    width: 70px;
+    height: 70px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 35px;
+    background-color: #93c5fd;
+    
+}
+.text{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.button-right{
+}
+
+.headerbtn {
+    margin: 20px 30px 0px 0px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    transition-duration: 0.4s;
+    background-color: #93c5fd;
+}
+
+.headerbtn:hover {
+  background-color: #bfdbfe; /* Green */
+  color: black;
+}
+main {
+    display: grid;
+    background-color: rgb(233, 238, 255);
+    padding-bottom: 20px;
+}
+
+.main-contrainer{
+    display: grid;
+    grid-template-rows: 1fr 0.3fr;
+    grid-template-columns: 1fr 0.5fr;
+
+}
+
+.proejct{
+    display: grid;
+    grid-row: span 2;
+    grid-template-rows: .1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+
+}
+
+.titleproject{
+    margin: 10px 0px 0px 30px;
+    padding: 10px 10px 10px 10px;
+    grid-column: 1/span 2;
+}
+
+.project-item{
+    background-color: white;
+    margin: 10px 15px 30px 30px;
+    padding: 10px 0px 20px 10px;
+    border-radius: 8px;
+    border-left: 9px solid #93c5fd;
+    box-shadow: 2px 2px 8px gray;
+    
+}
+.button-project{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.button-mdi{
+    margin: 40px 10px 5px 10px;
+    font-size: 20px;
+    
+}
+.button-mdi-rotate{
+    transform: rotate(-90deg);
+}
+
+.announcement{
+
+}
+.anoouncement-border{
+    background-color: white;
+    margin: 10px 15px 10px 30px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px gray;
+    
+}
+.titleannouncement{
+    margin: 10px 0px 0px 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.announcement-item{
+    font-size: 13px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-bottom: 1px solid gray;
+}
+.announcement-item:last-child{
+    border-bottom: 0;
+}
+
+.trending {
+
+}
+.border-trend{
+    margin: 20px 15px 10px 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px gray;
+    padding: 10px 0px 10px 0px;
+}
+.titletrending{
+    margin: 10px 0px 0px 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.trending-item{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    margin: 10px 20px 0px 30px;
+    padding: 10px 10px 5.3px 0px;
+    
+}
+
+.trendingchar{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
